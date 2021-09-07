@@ -13,7 +13,7 @@ git clone git@github.com:boyziusas/seemsneattask.git
 If you use https, use this instead
 
 ```
-git clone https://github.com/boyziusas/seemsneattask.git
+git clone https://github.com/boyziusas/seemsneattask
 ```
 
 Switch to the repo folder
