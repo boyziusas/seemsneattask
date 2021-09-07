@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,6 +20,8 @@ Route::get('/', function () {
 Route::get('currency','App\Http\Controllers\CurrencyController@index');
 Route::post('currency','App\Http\Controllers\CurrencyController@exchangeCurrency');
 Route::get('/currency', [App\Http\Controllers\CurrencyController::class, 'index'])->name('currency');
+
+Auth::routes();
 
 return Redirect::to("/currency")->withSuccess('You have successfully logged in! :)');
 
