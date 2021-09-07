@@ -1,4 +1,4 @@
-# seemsneatBackendTask
+# seemsneat Backend Task
 
 Project has what was needed for requirements, you can create your database fill credentials in the env file, do the database migration and test api endpoints for Customer data.
 For Currency converter - only login/register to the app needed in DB.
