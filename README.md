@@ -40,6 +40,13 @@ Generate a new application key
 php artisan key:generate
 ```
 
+Change your DB name in .env file and then do the DB migrations in terminal
+
+```
+php artisan migrate
+```
+
+
 Don't forget to run node commands
 
 ```
